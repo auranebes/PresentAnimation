@@ -19,51 +19,19 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXN-gd-mL3" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="60" y="96" width="294" height="260"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="L00-z9-d0H">
-                                        <rect key="frame" x="30" y="17" width="234" height="226"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preset:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwN-zZ-JWk">
-                                                <rect key="frame" x="0.0" y="0.0" width="234" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Curve:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XME-JY-bE5">
-                                                <rect key="frame" x="0.0" y="51.333333333333343" width="234" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Force:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdJ-H4-DKa">
-                                                <rect key="frame" x="0.0" y="102.66666666666666" width="234" height="20.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRb-Rc-AiJ">
-                                                <rect key="frame" x="0.0" y="154.33333333333331" width="234" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delay:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WK4-4q-79S">
-                                                <rect key="frame" x="0.0" y="205.66666666666669" width="234" height="20.333333333333343"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="226" id="Otf-ah-clb"/>
-                                        </constraints>
-                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animation" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqI-wO-vSx">
+                                        <rect key="frame" x="5" y="5" width="284" height="250"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstItem="L00-z9-d0H" firstAttribute="leading" secondItem="qXN-gd-mL3" secondAttribute="leading" constant="30" id="AiP-Wb-PjJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="L00-z9-d0H" secondAttribute="trailing" constant="30" id="hbl-AJ-VHm"/>
-                                    <constraint firstAttribute="height" constant="260" id="lkh-nF-Vf6"/>
-                                    <constraint firstItem="L00-z9-d0H" firstAttribute="centerY" secondItem="qXN-gd-mL3" secondAttribute="centerY" id="qLh-dI-4BY"/>
+                                    <constraint firstAttribute="trailing" secondItem="vqI-wO-vSx" secondAttribute="trailing" constant="5" id="JzK-EZ-UGt"/>
+                                    <constraint firstItem="vqI-wO-vSx" firstAttribute="leading" secondItem="qXN-gd-mL3" secondAttribute="leading" constant="5" id="c3t-ZX-SZH"/>
+                                    <constraint firstItem="vqI-wO-vSx" firstAttribute="top" secondItem="qXN-gd-mL3" secondAttribute="top" constant="5" id="mNl-QK-wcs"/>
+                                    <constraint firstAttribute="bottom" secondItem="vqI-wO-vSx" secondAttribute="bottom" constant="5" id="ytJ-FN-bqN"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -97,6 +65,7 @@
                             <constraint firstItem="x2z-yn-NW3" firstAttribute="width" secondItem="qXN-gd-mL3" secondAttribute="width" id="XwN-Bn-Jfg"/>
                             <constraint firstItem="qXN-gd-mL3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="Y1K-B1-Cbw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qXN-gd-mL3" secondAttribute="trailing" constant="60" id="eNE-w3-d4F"/>
+                            <constraint firstAttribute="bottom" secondItem="qXN-gd-mL3" secondAttribute="bottom" constant="540" id="hPS-vv-e3h"/>
                             <constraint firstItem="qXN-gd-mL3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="q8Y-zX-L3Y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x2z-yn-NW3" secondAttribute="bottom" constant="75" id="ta7-fs-fpp"/>
                             <constraint firstItem="x2z-yn-NW3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zYQ-7d-YoB"/>
@@ -104,11 +73,7 @@
                     </view>
                     <connections>
                         <outlet property="animationButton" destination="x2z-yn-NW3" id="9UK-c2-uqh"/>
-                        <outlet property="curveLabel" destination="XME-JY-bE5" id="vRb-j3-XAY"/>
-                        <outlet property="delayLabel" destination="WK4-4q-79S" id="R4x-yw-tVM"/>
-                        <outlet property="durationLabel" destination="GRb-Rc-AiJ" id="G0K-u3-FeW"/>
-                        <outlet property="forceLabel" destination="OdJ-H4-DKa" id="Wds-1l-f2g"/>
-                        <outlet property="presetLabel" destination="NwN-zZ-JWk" id="YgP-80-KWP"/>
+                        <outlet property="textAnimation" destination="vqI-wO-vSx" id="D92-Mz-u5v"/>
                         <outlet property="viewAnimated" destination="qXN-gd-mL3" id="dZ6-Yr-ejP"/>
                     </connections>
                 </viewController>
